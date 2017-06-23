@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.xcommander.dispatchtouchevent.MyLineaLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.xcommander.dispatchtouchevent.MainActivity"
+    android:orientation="vertical">
+
+    <com.xcommander.dispatchtouchevent.MyButton
+        android:id="@+id/MyButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Button的事件分发测试"
+        android:textColor="@color/colorPrimary" />
+    <com.xcommander.dispatchtouchevent.MyTextView
+        android:id="@+id/MyTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView的事件分发测试"
+        android:textColor="@color/colorPrimary"/>
+
+</com.xcommander.dispatchtouchevent.MyLineaLayout>
